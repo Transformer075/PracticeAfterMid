@@ -1,10 +1,11 @@
 package com.example.practiceapp02;
 
 public class StudentData {
-    private int id;
+
     private String name;
     private int age;
     private boolean isActive;
+    private int id;
 
     public StudentData(String name, int age, boolean isActive) {
         this.name = name;
