@@ -30,10 +30,11 @@
         android:id="@+id/showButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="12dp"
         android:text="Show Data"
-        app:layout_constraintTop_toBottomOf="@+id/updateButton"
-        tools:layout_editor_absoluteX="114dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateButton" />
 
     <EditText
         android:id="@+id/nameField"
@@ -71,10 +72,11 @@
         android:id="@+id/addButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="4dp"
         android:text="Add"
-        app:layout_constraintTop_toBottomOf="@+id/isActiveField"
-        tools:layout_editor_absoluteX="26dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isActiveField" />
 
     <ListView
         android:id="@+id/listField"
